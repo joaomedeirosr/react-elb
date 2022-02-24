@@ -1,5 +1,6 @@
 function capWord(sentenca) {
-  return sentenca && sentenca[0].toUpperCase() + sentenca.slice(1);
+  return (
+    sentenca && sentenca[0].toUpperCase() + sentenca.slice(1).toLowerCase()
+  );
 }
-capWord(sentenca);
-console.log(sentenca);
+capWord();
